@@ -1,0 +1,52 @@
+.page__heading {
+                padding: 30px 0;
+                text-align: center;
+                font-family: Lato;
+                font-weight: 700;
+            }
+
+            .user__block__inner {
+                padding: 10px;
+                display: flex;
+                background: #F0F0F0;
+            }
+            .user__image {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                margin-right: 20px;
+                object-fit: cover;
+            }
+            .user__content {
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 10px 0;
+                align-items: center;
+            }
+            .user__name {
+                font-weight: 400;
+                font-size: 24px;
+            }
+            .user__content .btn {
+                padding: .375rem 2.75rem;
+            }
+            
+            .modal-body img {
+                width: 100%;
+            }
+            
+            .error__message__js {
+                position: absolute;
+                display: none;
+                width: 100%;
+                background: red;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+            }
+            
+            .add__user__form {
+                position: relative;
+            }
